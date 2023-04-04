@@ -38,7 +38,7 @@ public class PessoaAPITest {
     }
 
     @Test
-    @DisplayName("Não deve cadastrar pessoa com nome em branco")
+    @DisplayName("Nao deve cadastrar pessoa com nome em branco")
     public void testNaoDeveCadastrarPessoaComNomeEmBranco() {
 
         given()
@@ -54,7 +54,7 @@ public class PessoaAPITest {
     }
 
     @Test
-    @DisplayName("Não deve cadastrar pessoa com informações ausentes")
+    @DisplayName("Nao deve cadastrar pessoa com informacoes ausentes")
     public void testNaoDeveCadastrarPessoaComInfoAusentes() {
 
         given()
@@ -71,7 +71,7 @@ public class PessoaAPITest {
     }
 
     @Test
-    @DisplayName("Não deve cadastrar pessoa com informações nulas")
+    @DisplayName("Nao deve cadastrar pessoa com informacoes nulas")
     public void testNaoDeveCadastrarPessoaComInfoNulas() {
 
         given()
